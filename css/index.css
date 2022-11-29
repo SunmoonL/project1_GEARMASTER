@@ -23,7 +23,7 @@ text-align: center; line-height: 30px; float:right;}
 .btn2:hover{background-color: #a000d7; cursor: pointer; color: white;}
 
 #third{margin: 0 auto; width: 1280px; height: 770px;}
-#third{background-image:url(../web/keyboard1.png); background-size: contain; background-repeat: no-repeat;}
+#third{background-image:url(../web/keyboard1.png); background-size: cover; background-repeat: no-repeat;}
 #textbox3{color: white; text-align: center; padding-top: 150px;}
 .five{font-size: 16px;}
 
@@ -59,7 +59,7 @@ iframe{margin: 0 auto; display: block; border: none;}
 .btn4{font-family: "Chakra Petch"; font-weight: bold; font-size: 15px; width: 100px; height: 30px; background-color: #f15048; border-radius: 20px; border: none;
     text-align: center; line-height: 30px; display: inline-block;}
 .btn4:hover{background-color: #a000d7; cursor: pointer; color: white;}
-.sixthwrap{width: 100%; height: 100%; background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(19,19,19,1) 70%, rgba(37,37,37,1) 100%);}
+.sixthwrap{width: 100%; height: 100%; background-color: black;}
 #sixth{margin: 0 auto; width: 1280px; height: 770px;}
 #sixth img{width: 100%; height: 100%;}
 
