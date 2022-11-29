@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gear Master</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $('nav').mouseover(function(){
+                $('.list').slideDown();
+            });
+
+            $('.list').mouseover(function(){
+                $('.list').show();
+            });
+
+            
+             $('.list').mouseout(function(){
+                 $('.list').hide();
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" href="css/reset.css">
+
+    <link rel="stylesheet" href="css/common.css ">
+    
+    <link rel="stylesheet" href="css/main.css ">
+</head>
+
+
+<body>
+    <header>
+        <div id="logo"><a href="main.html"><img src="web/logo.png" alt=""></a></div>
+        <nav>
+            <ul>
+                <li><a href="sub.html">제품</a></li>
+                <li><a href="#">스토리</a></li>
+                <li><a href="#">비즈니스</a></li>
+                <li><a href="#">지원</a></li>
+            </ul>
+        </nav>
+        <div id="login"><a href="login.html">로그인</a><div></div><a href="#">제품검색</a></div>
+    </header>
+
+    <div class="list">
+        <div class="listbox">
+            <div></div>
+        <div class="listone">
+            <a href="#">제품</a><br><br>
+            <a href="#">비즈니스 지원</a><br><br>
+            <a href="#">크리에이터용</a><br><br>
+        </div>
+        <div class="listtwo">
+            <a href="#">GEAR 스토리</a><br><br>
+            <a href="#">기술</a><br><br>
+            <a href="#">회사소개</a><br><br>
+            <a href="#">기어마스터 브랜드</a><br><br>
+        </div>
+        <div class="listthree">
+            <a href="">솔루션</a><br><br>
+            <a href="">제품</a><br><br>
+            <a href="">교육용</a><br><br>
+            <a href="">파트너</a><br><br>
+
+        </div>
+        <div class="listfour">
+            <a href="">고객 지원</a><br><br>
+            <a href="">비즈니스 및 교육용</a><br><br>
+            <a href="">소프트웨어 + 앱</a><br><br>
+        </div>
+        </div>
+    </div>
+
+    <div id="first"><img src="web/headphone.png" alt="" class="head">
+        <div id="textbox1">
+            <h1 class="one">Beats Solo3<br>
+            </h1><br>
+            <h1 class="wire">Wireless</h1><br><br><br> <span class="two">최대 40시간의 감상 시간<br>
+                긴 배터리 사용 시간을 통해 일상에 최적화된 헤드폰으로<br> 온이어 쿠션 컵은 장시간 이용에도 편안함을 선사합니다.</span><br><br>
+            <input type="button" value="$299.95 BUY" class="btn1">
+        </div>
+    </div>
+    <div class="secondwrap">
+    <div id="second">
+        <div id="textbox2">
+            <h1 class="three">Pro x</h1><br>
+            <span class="four">토너먼트에서 입증된 PRO 설계에 원하는 대로 선택할 수 있는 프로급 교체형 GX 기계식 스위
+                치가 포함됩니다. 클릭키, 택타일, 리니어 중 골라보세요. 세계 최고의 E-스포츠 선수들과 협력
+                하여 승리를 위해 설계되었습니다.</span><br><br>
+            <input type="button" value="$299.95 BUY" class="btn2">
+        </div>
+
+        <img src="web/keyboard.PNG" alt="" class="keyboard">
+    </div>
+</div>
+
+<div id="third">
+    <div id="textbox3">
+        <h1>프로를 위한 설계</h1><br><span class="five"><br>프로게이머와 협업하여 설계되었습니다. 컴팩트한 디자인과 교체 가능한<br>
+            프로급 스위치를 갖춘 PRO X는 프로게이머의 테스트를 거쳐 토너먼트에서<br>
+            사용하여 우승할 수 있도록 설계되었습니다.</span>
+    </div>
+</div>
+
+<div class="fourthwrap">
+    <div id="fourth"><img src="web/mouse.PNG" alt="">
+        <div id="textbox4">
+            <h1>G502 Lightspeed<br>Wireless</h1><br><br>
+            <span class="six">상징적인 G502 디자인이 프로급 LIGHTSPEED 무선 기능과 만나 안정적인 초고속 연결을
+                제공합니다. HERO 25K 센서는 서브마이크론 트래킹이 특징입니다. POWERPLAY로 사용하지
+                않을 때도 플레이할 때도 지속적으로 충전할 수 있습니다.</span><br><br>
+            <input type="button" value="$299.95 BUY" class="btn3">
+        </div>
+    </div>
+</div>
+
+    <div class="sectionwrap">
+        <section>
+            <h1>OTHER PRODUCTS</h1>
+
+            <article>
+                <div><img src="web/g502kda.PNG" alt="">
+                    <h1>G502 K/DA</h1><br><span>$299.95</span>
+                </div>
+            </article>
+
+            <article>
+                <div><img src="web/g502.PNG" alt="">
+                    <h1>G502 Wireless</h1><br><span>$259.95</span>
+                </div>
+            </article>
+
+            <article>
+                <div class="plus"><img src="web/g502plus.PNG" alt="">
+                    <h1>G502 X Plus</h1><br><span>$289.99</span>
+                </div>
+            </article>
+        </section>
+    </div>
+
+     <iframe width="1280" height="720" src="https://www.youtube.com/embed/nkgbKLt_CmI?autoplay=1&mute=1" title="CORSAIR VOID ELITE Headphones" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <div class="fifthwrap">
+        <div id="fifth">
+            <img src="web/whatsbox.PNG" alt="">
+            <div class="seven">
+                <h1>What is in the box</h1><br><br>
+                <span class="eight">HIGHLIGHTS</span><br><br><br>
+                -Razor BlackShark headset<br><br>
+                -Carring Case<br><br>
+                -3.5mm Remotetalk headphones<br><br>
+                -Universal USB Charging cable(USB-C)<br><br>
+                -Quick Start Guide<br><br>
+                -Warranty Card<br><br>
+                <input type="button" value="$299.95 BUY" class="btn4">
+            </div>
+        </div>
+    </div>
+    <div class="sixthwrap">
+        <div id="sixth"><img src="web/headset_1.png" alt=""></div>
+    </div>
+    
+    <div class="seventhwrap">
+        <div id="seventh"><img src="web/tech.PNG" alt="">
+            <div class="textbox5">
+                <h1>Tech Specs</h1><br><br>
+                <span class="nine">MANUFACTURE INFORMATION</span><br><br><br>
+                - Form Factor: On Ear<br><br>
+                - Connections: Bluetooth, Wireless<br><br>
+                - Batteries: Rechargeable lithium-ion<br><br>
+                - Height 7.8in / 19.8cm<br><br>
+                - Weight: 7.58oz / 215g<br><br>
+                - Stereo Bluetooth<br><br>
+                - Passive Playback via Remotetalk cable<br><br>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerbox">
+            <p> <a href="#">회사소개 </a>  |  <a href="#"> 이용안내 </a>  |  <a href="#"> 개인정보 취급방침 </a>  |  <a href="#"> 이용약관</a></p><br>
+    
+    
+    
+            <p>CUSTOMER CENTER : 운영시간 : 오전 10시 ~ 오후 05시 / 점심시간 : 12시 ~ 1시 / 토,일 공휴일 휴무 COMPANY : (주)기어마스터 / 대표이사 : 이선문 <br>
+                ADDRESS : 서울시 용산구 중부로 96번길 29 (주)기어마스터 / CALL CENTER : 1234-5678 / FAX : 02)1234-5678<br>
+                개인정보관리책임자 : 이선문 / 사업자등록번호 : 123-45-67890 [사업자정보확인] / 통신판매업 신고번호 : 제1000-123호</p>
+            <br>
+            Copyright (c) by (주)기어마스터 All Right Reserved.
+        </div>
+    </footer>
+</body>
+</html>

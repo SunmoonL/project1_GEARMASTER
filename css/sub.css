@@ -1,0 +1,93 @@
+@charset "utf-8";
+*{box-sizing: border-box;}
+.sectionwrap{width: 100%; height: 100%; background: linear-gradient(90deg, rgba(244,247,250,1) 0%, rgba(244,247,250,1) 25%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%);}
+section{margin: 0 auto; width: 1280px; height: 1000px;}
+.imgbox{float: left; width: 60%; height: 100%; background-color: #f4f7fa;
+padding-top:220px;}
+.subhead{width: 500px;}
+.subtext{float: right; width: 40%; height:1000px; background-color: white;
+padding-top: 150px; padding-left: 60px;}
+.subtext p{font-weight: bold; color: #777;}
+small{color:#5865f5; font-weight: bold; font-size: 12px;}
+.price{display:inline-block; color: #bbbbbb; letter-spacing: 2px;
+margin-bottom: 30px; width: 110px;}
+.subtext b{color: #bbbbbb; font-size: 18px;}
+.free{float: right; color: #5865f5; font-weight: bold; font-size: 15px; padding-top: 5px;}
+.btn1{width: 20px; width: 20px; border: none; border-radius: 50%; position: relative;
+color: white; background-color: #bbbbbb; font-weight: bold;}
+.btn1:hover{cursor: pointer;}
+.mil{display: inline-block; width: 175px;}
+.icon1{float: left; width: 100px; height: 45px;}
+.icon1 > span{float: right; font-weight: bold; line-height: 20px;}
+.icon2{display: inline-block; width: 180px; height: 45px; margin-left: 70px;}
+.icon2 > span{float: right; font-weight: bold; line-height: 20px;}
+.v{display: inline-block; font-size: 20px; padding-top: 6px; font-weight: bold; text-align: center; width: 40px; height: 40px; background-color:#5865f5; border-radius: 7px; color: white;}
+.m{display: inline-block; font-size: 20px; padding-top: 6px; font-weight: bold; text-align: center; width: 40px; height: 40px; background-color:black; border-radius: 7px; color: white;}
+select{width: 450px; height: 40px; border: 1px solid #bbbbbb; padding: 10px;}
+.total{font-weight: bold;}
+.totalprice{font-weight: bold; float: right; font-size: 20px;}
+#one{font-size: 14px;}
+.last{width:450px; height: 70px; text-align: center; font-weight: bold;}
+.last div{float: left; margin-left: 10px;  border-radius: 5px;}
+.pick{font-size: 14px; width: 70px; height: 70px; border: 1px solid black; line-height: 70px;}
+.cart{font-size: 14px; width: 70px; height: 70px; border: 1px solid black; line-height: 70px;}
+.give{font-size: 14px; width: 70px; height: 70px; border: 1px solid black; line-height: 70px;}
+.purchase{width: 200px; height: 70px; border: 1px solid black; line-height: 70px; background-color: #5865f5;
+color: white;}
+.last > a{color: black;}
+.last > a > div:active{background-color: #888;}
+
+ul > li > a {color: #000;}
+
+.inquirywrap{width: 100%; height: auto; background-color: white;}
+
+#detail_tablebox {width:900px; height:14400px; margin:10px auto 0px; display:block;}
+#detail_tablebox > h4 {text-align:left; margin: 40px 0 0 0px; font-size:35px;}
+#detail_tablebox > span { display:inline-block; font-size:18px; margin:5px 0 0 0px; width:100%; font-weight: bold;} 
+#detail_tablebox > table {display:block; margin:10px 0 0 0px; line-height:30px;}
+#detail_tablebox > table th {font-size:14px; text-align:left; width:200px; background-color:#ddd; padding:0 0 0 20px;}
+#detail_tablebox > table td {font-size:14px; text-align:left; width:700px; background-color:#eee; padding:0 0 0 20px; color:#333;}
+
+#inquiry {width:100%; height:70px; margin: 0 auto; background-color: white;}
+#inquiry ul {width:1280px; height:50px; margin:0 auto 0px; box-sizing: content-box;}
+#inquiry > ul > li:active{background-color: #555;}
+#inquiry > ul > li:hover{cursor: pointer;}
+#inquiry > ul > li {width:320px; height:100%; background-color:white; float:left; text-align:center; padding:15px 0 0 0px; 
+border:1px solid #ddd; border-bottom:1px solid #ddd; font-size:13px;}
+
+
+#inquiry_tablebox table th{width: 80px; border-bottom: 1px solid #eee; color: #333;}
+#inquiry_tablebox table td:first-of-type{width: 770px; border-bottom: 1px solid #eee;}
+#inquiry_tablebox table td:first-of-type > a{color: #333;}
+#inquiry_tablebox table td:nth-of-type(2) {width:80px; text-align:center; border-bottom:1px solid #eee;}
+#inquiry_tablebox table td:nth-of-type(3) {width:120px; text-align:center; border-bottom:1px solid #eee;}
+#inquiry_tablebox table td:last-of-type {width:150px; text-align:center; border-bottom:1px solid #eee;}
+
+#inquiry_tablebox {width:1280px; height:450px; margin:0 auto; text-align:center; display: none;}
+#inquiry_tablebox > button {float:right; margin:25px 0px; width:120px; height:30px; color:#fff; font-size:12px; background-color:#333; border:1px solid #ddd;}
+#inquiry_tablebox > button:hover {cursor:pointer;}
+#inquiry_tablebox > table {display:inline-block; margin:0px auto; border-top:1px solid #333; line-height:50px; width:1280px; font-size:13px; color:#333;}
+
+#shipping {width:900px; height:550px; margin:10px auto 0; display: none;}
+#shipping > ul {width:1280px; height:50px; margin:40px auto 0px;}
+#shipping > ul > li {width:300px; height:100%; background-color:#eee; float:left; text-align:center; padding:15px 0 0 0px; border:1px solid #ddd; border-bottom:1px solid #000; font-size:13px;}
+#shipping > ul > li > a {color:#000;} 
+#shipping > ul > li:nth-child(2) {background-color:#fff; border:1px solid #000; border-bottom:none; color:#000;}
+#shipping > h2 {float:left; padding:50px 20px 0px; font-size:19px;}
+#shipping > #shipping_textbox {width:100%; height:270px;}
+#shipping > #shipping_textbox > ul {display:block; width:1100px; height:280px; margin:100px 35px 0px;}
+#shipping > #shipping_textbox > ul > li {font-size:13px; list-style:disc; margin:7px 10px; color:#666;}
+
+#review {width:1280px; height:400px; margin:0px auto 0; display: none;}
+#review ul {width:1280px; height:50px; margin:0px auto 0px;}
+#review ul > li {width:320px; height:100%; background-color:#eee; float:left; text-align:center; padding:15px 0 0 0px; border:1px solid #ddd; border-bottom:1px solid #000; font-size:13px;}
+#review > ul > li:nth-child(3) {background-color:#fff; border:1px solid #000; border-bottom:none;} 
+#review_tablebox table th {width:80px; border-bottom:1px solid #eee; color:#333}
+#review_tablebox table td:first-of-type {width:770px; border-bottom:1px solid #eee;}
+#review_tablebox table td:first-of-type > a {color:#333;}
+#review_tablebox table td:nth-of-type(2) {width:80px; text-align:center; border-bottom:1px solid #eee;}
+#review_tablebox table td:nth-of-type(3) {width:120px; text-align:center; border-bottom:1px solid #eee;}
+#review_tablebox table td:last-of-type {width:150px; text-align:center; border-bottom:1px solid #eee;}
+#review > #review_tablebox > button {float:right; margin:25px 0px; width:120px; height:30px; color:#fff; font-size:12px; background-color:#333; border:1px solid #ddd;}
+#review > #review_tablebox > button:hover {cursor:pointer;}
+#review > #review_tablebox > table {display:inline-block; margin:0px auto; border-top:1px solid #333; line-height:50px; width:1280px; font-size:13px; color:#333;}

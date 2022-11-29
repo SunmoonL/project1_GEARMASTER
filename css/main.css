@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+#first{margin:0 auto; width: 1280px; height: 610px; background-color: black;}
+#textbox1{float: right; display: inline;}
+.wire{text-align: right; color: white; letter-spacing: 5px; font-size: 45px;}
+.head{width:600px; height: auto; margin-top:100px; float: left;}
+.one{text-align: right; letter-spacing: 5px; font-size: 45px; margin-top:50px; color:#f15048;}
+.two{text-align: right; margin: 30px 0px 0px 0px; color:white; font-size: 16px;}
+.btn1{font-family: "Adobe 고딕 std"; font-size: 14px; margin-left:300px ; width: 100px; height: 30px; background-color: #f15048; border-radius: 20px;}
+.btn1:hover{background-color: #a000d7; cursor: pointer; color: white;}
+
+.secondwrap{width: 100%; height: 100%; background-color: white;}
+#second{margin: 0 auto; width:1280px; height:770px; background-color: white;}
+#textbox2{width: 600px; padding-top: 180px; padding-left: 20px;}
+.keyboard{position: relative; left:320px; top: 53px; width: 900px;}
+.three{letter-spacing: 5px; font-size: 45px; color:#f15048;}
+.four{font-size: 16px;}
+.btn2{font-family: "Adobe 고딕 std"; font-size: 14px; width: 100px; height: 30px; background-color: #f15048; border-radius: 20px; border: none;}
+.btn2:hover{background-color: #a000d7; cursor: pointer; color: white;}
+
+#third{margin: 0 auto; width: 1280px; height: 770px;}
+#third{background-image:url(../web/keyboard1.png); background-size: contain; background-repeat: no-repeat;}
+#textbox3{color: white; text-align: center; padding-top: 150px;}
+.five{font-size: 16px;}
+
+.fourthwrap{width: 100%; height: 100%; background-color:#eee;}
+#fourth{margin: 0 auto; width: 1280px; height: 770px; background-color: #eee;}
+#fourth img{width: 550px; margin-top: 240px; margin-left: 50px;}
+#textbox4{ margin-top: 150px; text-align: right; width: 550px; float: right; margin-right: 20px;}
+.six{font-size: 16px;}
+.btn3{font-family: "Adobe 고딕 std"; font-size: 14px; width: 100px; height: 30px; background-color: #f15048; border-radius: 20px; border: none;}
+.btn3:hover{background-color: #a000d7; cursor: pointer; color: white;}
+
+.sectionwrap{width: 100%; height: 100%; background-color: white;}
+section{margin: 0 auto; width: 1280px; height: 900px; background-color: white;}
+section h1{text-align: center; padding-top: 130px;}
+article{font-family: "adobe caslon pro"; float: left; text-align: center; margin: 150px 110px 0px 110px;
+width:200px; height: 350px;}
+article h1{font-size: 21px; padding-top: 60px;}
+article img{width: 100%; height: 100%;}
+.plus{height: 350px;}
+article span{font-family: "Adobe 고딕 std"; font-size: 16px;}
+
+iframe{margin: 0 auto; display: block;}
+
+.fifthwrap{width: 100%; height: 100%; background-color: #0a1527;}
+#fifth{margin: 0 auto; width: 1280px; height: 770px;}
+#fifth img{float: right; height: 100%; width: 75%;}
+.seven{font-size: 18px; color: white; padding-top: 80px;}
+
+.eight{font-size: 20px; font-weight: bold;}
+.btn4{font-family: "Adobe 고딕 std"; font-size: 14px; width: 100px; height: 30px; background-color: #f15048; border-radius: 20px; border: none;}
+.btn4:hover{background-color: #a000d7; cursor: pointer; color: white;}
+.sixthwrap{width: 100%; height: 100%; background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(19,19,19,1) 70%, rgba(37,37,37,1) 100%);}
+#sixth{margin: 0 auto; width: 1280px; height: 770px;}
+#sixth img{width: 100%; height: 100%;}
+
+.seventhwrap{width: 100%; height: 100%; background-color: white;}
+#seventh{margin: 0 auto; width: 1280px; height: 770px; background-color: white;}
+#seventh img{float: left;}
+.textbox5{ padding-top: 130px; font-size: 18px;}
+.nine{ font-size: 20px; font-weight: bold;}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script>
+        $(function(){
+            $('.user').click(function(){
+                $('.userinputbox').show();
+                $('.noninputbox').hide();
+            });
+
+            $('.nonu').click(function(){
+                $('.userinputbox').hide();
+                $('.noninputbox').show();
+            });
+        });
+
+        $(function(){
+            $('nav').mouseover(function(){
+                $('.list').slideDown();
+            });
+
+            $('.list').mouseover(function(){
+                $('.list').show();
+            });
+
+            
+             $('.list').mouseout(function(){
+                 $('.list').hide();
+            });
+        });
+    </script>
+
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+
+    <link type="text/css" rel="stylesheet" href="css/common.css ">
+    
+    <link type="text/css" rel="stylesheet" href="css/login.css">
+
+</head>
+
+
+<body>
+    <header>
+        <div id="logo"><a href="main.html"><img src="web/logo.png" alt=""></a></div>
+        <nav>
+            <ul>
+                <li><a href="sub.html">제품</a></li>
+                <li><a href="#">스토리</a></li>
+                <li><a href="#">비즈니스</a></li>
+                <li><a href="#">지원</a></li>
+            </ul>
+        </nav>
+        <div id="login"><a href="login.html">로그인</a><div></div><a href="#">제품검색</a></div>
+    </header>
+    
+    <div class="list">
+        <div class="listbox">
+            <div></div>
+        <div class="listone">
+            <a href="#">제품</a><br><br>
+            <a href="#">비즈니스 지원</a><br><br>
+            <a href="#">크리에이터용</a><br><br>
+        </div>
+        <div class="listtwo">
+            <a href="#">GEAR 스토리</a><br><br>
+            <a href="#">기술</a><br><br>
+            <a href="#">회사소개</a><br><br>
+            <a href="#">기어마스터 브랜드</a><br><br>
+        </div>
+        <div class="listthree">
+            <a href="">솔루션</a><br><br>
+            <a href="">제품</a><br><br>
+            <a href="">교육용</a><br><br>
+            <a href="">파트너</a><br><br>
+
+        </div>
+        <div class="listfour">
+            <a href="">고객 지원</a><br><br>
+            <a href="">비즈니스 및 교육용</a><br><br>
+            <a href="">소프트웨어 + 앱</a><br><br>
+        </div>
+        </div>
+    </div>
+
+    <div class="wrap">
+    
+        <div class="loginbox">
+            <div class="loginbtnbox">
+            <button class="user">회원 로그인</button>
+            <button class="nonu">비회원 로그인</button><br><br>
+            </div>
+        
+            <div class="userinputbox">
+            
+                <div class="userbox">
+                    <input type="email" placeholder="이메일 아이디"><br>
+                    <input type="password" placeholder="비밀번호"><br><br><br>
+                    <div class="loginbtn">로그인</div>
+                    <div class="savebox">
+                        <input type="checkbox" id="save"><label for="save"> 이메일 아이디 저장</label>
+                        <div class="join">아이디 ·  비밀번호 찾기 | 회원가입</div>
+                    </div><br><br><br><br>
+                    <hr><br><br><br>
+                    <span class="SNS">SNS 계정으로 간편하게 로그인하세요.</span><br><br><br>
+                    <a href="https://naver.com"><div class="naver">네이버 로그인</div></a><br>
+                    <a href="https://www.kakaocorp.com"><div class="kakao">카카오톡 로그인</div></a>
+
+                </div>
+            </div>
+
+            <div class="noninputbox">
+        
+                <div class="nonbox">
+                    <input type="text" placeholder="주문번호"><br>
+                    <input type="password" placeholder="비밀번호"><br><br><br>
+                    <div class="loginbtn">로그인</div><br>
+                    <p>비회원께서는 주문 시 주문번호와 비밀번호(주문 시 배송 조회 비밀번호로 입력)를 입력하시면,해당 주문 상품의 배송 상태를 조회하실 수 있습니다.</p>
+                    <br><br><br>
+                    <hr><br><br><br>
+                    <h2>아직 기어마스터 회원이 아니세요?</h2><br>
+                    <p>회원가입을 통해 기어마스터에서<br>
+                    다양한 서비스를 이용하실 수 있습니다.</p><br><br><br>
+                    <div class="joinbox">회원가입</div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <footer>
+        <div class="footerbox">
+            <p> <a href="#">회사소개   </a>|<a href="#"> 이용안내 </a> | <a href="#"> 개인정보 취급방침 </a> | <a href="#"> 이용약관</a></p>
+            <br>
+
+
+
+            <p>CUSTOMER CENTER : 운영시간 : 오전 10시 ~ 오후 05시 / 점심시간 : 12시 ~ 1시 / 토,일 공휴일 휴무 COMPANY : (주)기어마스터 / 대표이사 : 이선문
+                <br>
+                ADDRESS : 서울시 용산구 중부로 96번길 29 (주)기어마스터 / CALL CENTER : 1234-5678 / FAX : 02)1234-5678<br>
+                개인정보관리책임자 : 이선문 / 사업자등록번호 : 123-45-67890 [사업자정보확인] / 통신판매업 신고번호 : 제1000-123호</p>
+            <br>
+            Copyright (c) by (주)기어마스터 All Right Reserved.
+        </div>
+    </footer>
+    
+</body>
+</html>
