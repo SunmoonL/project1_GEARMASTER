@@ -7,9 +7,10 @@
 .head{width:600px; height: auto; margin-top:100px; float: left;}
 .one{text-align: right; letter-spacing: 5px; font-size: 45px; margin-top:50px; color:#f15048;}
 .two{text-align: right; margin: 30px 0px 0px 0px; color:white; font-size: 16px;}
-.btn1{font-family: "Chakra Petch"; font-weight: bold; font-size: 15px; width: 100px; height: 30px; background-color: #f15048; border-radius: 20px;
-text-align: center; line-height: 30px; float:right;}
-.btn1:hover{background-color: #a000d7; cursor: pointer; color: white;}
+.btn{font-family: "Chakra Petch"; font-weight: bold; font-size: 15px; width: 100px; height: 30px; background-color: #f15048; border-radius: 20px;
+text-align: center; line-height: 30px; float:left; padding: 5px 15px;}
+.btn1{float: right;}
+.btn:hover{background-color: #a000d7; cursor: pointer; color: white;}
 
 .secondwrap{width: 100%; height: 100%; background-color: white;}
 #second{margin: 0 auto; width:1280px; height:770px; background-color: white;}
@@ -18,9 +19,6 @@ text-align: center; line-height: 30px; float:right;}
 .keyboard{position: relative; left:320px; top: 40px; width: 900px;}
 .three{letter-spacing: 5px; font-size: 45px; color:#f15048;}
 .four{font-size: 16px;}
-.btn2{font-family: "Chakra Petch"; font-weight: bold; font-size: 15px; width: 100px; height: 30px; background-color: #f15048; border-radius: 20px; border: none;
-    text-align: center; line-height: 30px; display: inline-block;}
-.btn2:hover{background-color: #a000d7; cursor: pointer; color: white;}
 
 #third{margin: 0 auto; width: 1280px; height: 770px;}
 #third{background-image:url(../web/keyboard1.png); background-size: cover; background-repeat: no-repeat;}
@@ -33,9 +31,6 @@ text-align: center; line-height: 30px; float:right;}
 #textbox4{ margin-top: 150px; text-align: right; width: 550px; float: right; margin-right: 20px;}
 #textbox4 > a{color: #111;}
 .six{font-size: 16px;}
-.btn3{font-family: "Chakra Petch"; font-weight: bold; font-size: 15px; width: 100px; height: 30px; background-color: #f15048; border-radius: 20px; border: none;
-    text-align: center; line-height: 30px; display: inline-block;}
-.btn3:hover{background-color: #a000d7; cursor: pointer; color: white;}
 
 .sectionwrap{width: 100%; height: 100%; background-color: white;}
 section{margin: 0 auto; width: 1280px; height: 900px; background-color: white;}
@@ -56,9 +51,6 @@ iframe{margin: 0 auto; display: block; border: none;}
 .seven > a{color: #111;}
 
 .eight{font-size: 20px; font-weight: bold;}
-.btn4{font-family: "Chakra Petch"; font-weight: bold; font-size: 15px; width: 100px; height: 30px; background-color: #f15048; border-radius: 20px; border: none;
-    text-align: center; line-height: 30px; display: inline-block;}
-.btn4:hover{background-color: #a000d7; cursor: pointer; color: white;}
 .sixthwrap{width: 100%; height: 100%; background-color: black;}
 #sixth{margin: 0 auto; width: 1280px; height: 770px;}
 #sixth img{width: 100%; height: 100%;}

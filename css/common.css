@@ -12,7 +12,7 @@ nav > ul > li > a:hover{color: #a000d7; border-bottom: 2px solid #a000d7;}
 nav > ul > li > a {font-size: 20px; font-weight: bold; color: white;}
 #login{width: 143px; height: 30px; float: right; margin:30px 0px 0px 0px; color: white;}
 #login > div{width: 30px; display: inline-block;}
-#login > a{color: white; font-weight: bold;}
+#login > a{color: white;}
 
 .list{width:100%; height: 200px; background-color: #111; display: none;
  position: absolute; background-color:black; top:80px;}
