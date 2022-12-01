@@ -65,3 +65,23 @@ $(document).on('change',"#headset",function(){
         $('#one').text('(총1개)');
     }
 });
+
+$(function(){
+    $('.selectbox div:nth-of-type(1)').click(function(){
+        $('.img1').show();
+        $('.img2').hide();
+        $('.img3').hide();
+    });
+
+    $('.selectbox div:nth-of-type(2)').click(function(){
+        $('.img1').hide();
+        $('.img2').show();
+        $('.img3').hide();
+    });
+
+    $('.selectbox div:nth-of-type(3)').click(function(){
+        $('.img1').hide();
+        $('.img2').hide();
+        $('.img3').show();
+    });
+});

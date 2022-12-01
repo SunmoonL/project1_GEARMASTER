@@ -2,8 +2,23 @@
 *{box-sizing: border-box;}
 .sectionwrap{width: 100%; height: 100%; background: linear-gradient(90deg, rgba(244,247,250,1) 0%, rgba(244,247,250,1) 25%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%);}
 section{margin: 0 auto; width: 1280px; height: 1000px;}
-.imgbox{float: left; width: 60%; height: 1000px; background-color: #f4f7fa;
+
+.imgbox{float: left; width: 60%; height: 100%; background-color: #f4f7fa;
 padding-top:220px;}
+.imgbox img{width: 500px;}
+.img1{float: left; width: 60%; background-color: #f4f7fa;}
+.img2{float: left; width: 60%; background-color: #f4f7fa;
+        display: none;}
+.img3{float: left; width: 60%; background-color: #f4f7fa;
+        display: none;}
+    
+.selectbox{width: 350px; height: 100px; float: left; margin:130px 0px 0px 150px;}
+.selectbox > div {width: 100px; height: 100px; float: left;
+    opacity: 0.8;}
+.selectbox > div:hover{opacity: 1; cursor: pointer;}
+.selimg{max-width: 100%;}
+
+
 .subhead{width: 500px;}
 .subtext{float: right; width: 40%; height:1000px; background-color: white;
 padding-top: 150px; padding-left: 60px;}
