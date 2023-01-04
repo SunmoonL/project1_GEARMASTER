@@ -50,17 +50,17 @@ $(document).on('change',"#headset",function(){
         $('#one').text('(총0개)');
     }
 
-    if($(this).val() == 'VOID RGB ELITE WHITE'){
+    else if($(this).val() == 'VOID RGB ELITE WHITE'){
         $('.totalprice').text('159,000원');
         $('#one').text('(총1개)');
     }
 
-    if($(this).val() == 'VOID RGB ELITE BLACK'){
+    else if($(this).val() == 'VOID RGB ELITE BLACK'){
         $('.totalprice').text('일시 품절입니다.');
         $('#one').text('(총0개)');
     }
 
-    if($(this).val() == 'VOID RGB ELITE CHERRY'){
+    else if($(this).val() == 'VOID RGB ELITE CHERRY'){
         $('.totalprice').text('159,000원');
         $('#one').text('(총1개)');
     }
